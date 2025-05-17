@@ -89,7 +89,9 @@ def home():
 
 def about():
     st.title("About Rice Class Predictor")
-    st.write("This app uses a quantized VGG16 TFLite model to predict rice varieties.")
+    st.write("Rice Class Predictor is a state-of-the-art website that offers a reliable and accurate way to identify various types of rice grains. This website employs advanced machine learning algorithms to classify your uploaded images of rice grains, allowing you to learn more about the different varieties of rice.")
+    st.write("This machine learning model has been trained on a vast dataset of high-quality rice images from all corners of the world. This ensures that the model can effectively classify rice grains of different shapes, sizes, and colors accurately.")
+    st.write("So, whether you are a rice enthusiast, a food lover, or just curious about the world's different rice types, Rice Class Predictor is here to help you identify and learn more about them.")
     st.write("Final Year Project by Eaman.")
 
 
